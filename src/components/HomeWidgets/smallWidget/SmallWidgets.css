@@ -1,0 +1,75 @@
+.widgetsm{
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin: 20px;
+    padding: 20px;
+}
+.widgetsmTitle{
+    font-size: 32px;
+    font-weight: 600;
+}
+.widgetsmImage{
+    height:  40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+
+
+
+}
+.wigetsmList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.wigetsmListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+
+}
+.widgetsmUser{
+    display: flex;
+    flex-direction: column;
+
+}
+.wigetsmUsername{
+    font-weight: 600;
+    
+
+
+
+}
+
+
+.wigetsmUserTitle{
+    font-weight: 300;
+    color: rgb(80, 78, 78);
+
+}
+
+
+button{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border-style:hidden;
+    border:none;
+    background-color: #eeeef7;
+    cursor: pointer;
+    color: rgb(24, 23, 23);
+
+
+
+
+}
+
+
+.widgetsmIcon{
+font-size: 16px;
+margin-right: 5px;
+
+}
